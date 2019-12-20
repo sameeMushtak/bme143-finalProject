@@ -1,1 +1,2 @@
-# bme143-finalProject
+# BME 143 - Final Model Implementation
+## Samee Mushtak

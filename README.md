@@ -1,5 +1,6 @@
 # BME 143 - Final Model Implementation
 ## Samee Mushtak
+An implementation in MATLAB of the mathematical model developed by Martin Howard and Pieter Rein ten Wolde in [*Finding the Center Reliably: Robust Patterns of Developmental Gene Expression* (2005)](https://doi.org/10.1103/PhysRevLett.95.208103) to examine an aspect of morphogenesis in *Drosophila* embryos.
 ### Function Files
 * `pdefun.m` - Function defining the system of partial differential equations used in the paper's mathematical model.
 * `pdefunExtended.m` - Function generalizing the system of partial differential equations defined in `pdefun.m` by allowing Bcd, corepressor, and Bcd-corepressor complex to have distinct diffusion coefficients. 

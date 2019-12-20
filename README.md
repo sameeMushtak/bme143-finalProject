@@ -8,7 +8,7 @@ An implementation in MATLAB of the mathematical model developed by Martin Howard
 * `pdeic.m` - Function defining the initial densities of all compounds (zero for all).
 * `normalize_density.m` - Given a matrix of protein densities, outputs a matrix with all densities normalized with respect to the maximum.
 * `x_boundary.m` - Given a matrix of protein densities, calculates the position of the Hb boundary.
-### Executable Files
+### Files to Run
 * `pdeScript.m` - Script used to replicate figures found in paper. Solves the system of partial differential equations defined by `pdefun.m`, `pdebc.m`, and `pdeic.m` 100 times to simulate 100 embryos.
 * `modelExtension.m` - Script used to implement the model extension (variation of diffusion coefficients). Solves the system of partial differential equations defined by `pdefunExtended.m`, `pdebc.m`, and `pdeic.m` 100 times to simulate 100 embryos.
 * `boundaryStats.m` - Can be used to calculate the mean and standard deviation in the position of the Hb boundary for a simulation of 100 embryos using the protein density matrix generated in `pdeScript.m`
